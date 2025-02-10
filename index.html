@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [Your Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anne Akinyi Omollo</h1>
+        <p>Geospatial Analyst | Transforming Data into Actionable Insights</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Geospatial Analyst with a strong background in GIS, remote sensing, and data analysis.
+            I specialize in leveraging geospatial technology to address real-world challenges in agriculture,
+            public health, and environmental management. With expertise in tools like QGIS, Python, and Google Earth Engine, 
+            I bring data to life through interactive maps and dashboards.
+        </p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Air Quality Monitoring in Nairobi (2019–2023)</h3>
+                <p>
+                    Analyzed NO₂ levels using Sentinel-5P imagery and GEE scripting and visualized seasonal trends during the cold June–August months in QGIS.  
+                </p>
+                <p><strong>Tools:</strong> Sentinel-5P, GEE, QGIS, Excel</p>
+            </div>
+            <div class="project-card">
+                <h3>Crop health analysis</h3>
+                <p>
+                    Analyzed Sentinel 2 data using GEE scripting to determine and visualize stressed and diseased crop plantations in Nandi county, Kenya.
+                </p>
+                <p><strong>Tools:</strong> Sentinel2_SR, GEE, QGIS, Excel</p>
+            </div>
+            <div class="project-card">
+                <h3>Cholera Risk Analysis</h3>
+                <p>
+                    Mapped water, sanitation, and hygiene facilities across Tharaka Nithi county, Kenya, highlighting cholera risk hotspots.
+                </p>
+                <p><strong>Tools:</strong> QGIS, Python, Excel</p>
+            </div>
+            <div class="project-card">
+                <h3>Rental mapping in Nairobi county</h3>
+                <p>
+                    Cleaned and analyzed rental data for different properties in Nairobi county to determine whether rental prices are more affected by the size or location of a property. Developed an interactive dashboard for visualization of the output of the analysis
+                </p>
+                <p><strong>Tools:</strong> QGIS, Python, Geonode, Excel</p>
+            </div>
+            <div class="project-card">
+                <h3>Hydrodynamic Modeling of Tana River Floodplains</h3>
+                <p>
+                    Conducted floodplain analysis to inform disaster preparedness and hydrodynamic resource management.
+                </p>
+                <p><strong>Tools:</strong> QGIS, ArcGIS, HecRAS, SNAP Excel</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>GIS Software:</strong> QGIS, ArcGIS, AutoCAD, HecRAS, SNAP</li>
+            <li><strong>Remote Sensing:</strong> Sentinel-2, Landsat, MODIS, Google Earth Engine</li>
+            <li><strong>Programming:</strong> Python (pandas, geopandas, matplotlib)</li>
+            <li><strong>Data Visualization:</strong> Excel, Geonode, Tableau</li>
+            <li><strong>Soft Skills:</strong> Collaboration, Communication, Problem-Solving</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:omolloanne2017@gmail.com">omolloanne2017@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/anne-omollo-938131212/" target="_blank">https://www.linkedin.com/in/anne-omollo-938131212/</a></p>
+        <a href="https://docs.google.com/document/d/1BIKly-6X9M9bdiJfyxfIHxbybu5ZH75k/edit" target="_blank">Download My Resume</a>
+  </section>
+    <footer>
+        <p>&copy; 2025 [Anne Omollo]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
